@@ -297,7 +297,7 @@ article:hover{
       <h2>Ebooks</h2>
         <div class="articles" id="block">
             <article >
-                <figure onclick="openbook()">
+                <figure onclick="openbook1()">
                     <img
                         src="https://www.alwaysdata.com/static/img/technologies/languages/python.png"
                         alt="Preview"
@@ -308,7 +308,7 @@ article:hover{
                 </div>
             </article>
             <article>            
-                <figure>
+                <figure onclick="openbook2()">
                     <img
                         src="https://brandlogos.net/wp-content/uploads/2021/11/java-logo.png"
                         alt="Preview"
@@ -377,8 +377,11 @@ article:hover{
     
       </script>
       <script>
-        function openbook(){
+        function openbook1(){
           window.location.href = "pdf/python/unitviewer.html";
+        }
+        function openbook2(){
+          window.location.href = "pdf/java/unitviewer.html";
         }
       </script>
 
