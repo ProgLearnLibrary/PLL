@@ -1,0 +1,24 @@
+#arithmatic operator
+x=30
+y=20
+print('x+y=',x+y)
+print('x-y=',x-y)
+print('x*y=',x*y)
+print('x/y=',x/y)
+print('x//y=',x//y)
+print('x%y=',x%y)
+
+#comparision operator
+x=10
+y=20
+print('x<y is',x<y)
+print('x>y is',x>y)
+print('x==y is',x==y)
+print('x!=y is',x!=y)
+
+#logical operator
+a=True
+b=False
+print('a and b is',a or b)
+print('a and b is',a or b)
+
